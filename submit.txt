@@ -1,0 +1,24 @@
+Question 1
+It uses Basic Auth.
+./manage.py createsuperuser will allow you to create an account with username and password
+or in the admin dashboard page, you can create a user with a username and a password
+You can specify permission classes to control the access permissions of certain endpoints
+
+Question 2
+Basic Auth
+
+Question 3
+session authentication is a stateful authentication, so the server keeps track of user's session which is a state, and it sends you a session id and it will be stored in the cookie
+token authentication is stateless.
+
+Token auth is more secure because it would expire, but for basic auth, the username and password are unlikely to change in a long time.
+Basic auth will trigger browser's pop up for entering the username and the password, but with Token auth, we can customize the UI for login.
+
+Question 4
+Clicking on "Login with Google" will redirect you to Google's authentication page.
+You will enter your google account's email and password.
+If successful, it will ask you for consent ("allow access" form)
+If you agreed, then it will redirect you back to "bitbucket.org" 
+
+Question 5
+https://github.com/TianxiangR/authentication-lab
